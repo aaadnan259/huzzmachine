@@ -1,23 +1,19 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f8f9fa;
-  color: #333;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                    url('https://pbs.twimg.com/media/GciWPgraMAAQJUU?format=jpg&name=medium');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #fff;
   margin: 0;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
-.container {
-  text-align: center;
-  padding: 30px;
-  border: 2px solid #4caf50;
-  border-radius: 8px;
-  background-color: #ffffff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
 
 h1 {
   color: #4caf50;
